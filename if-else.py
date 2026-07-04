@@ -102,13 +102,20 @@
 #     print(f"{char} is a consonant.")
 
 # ----------------------------------------------------------------------------------------------------------------------------------------------------------
-print(1>3)
+# print(1>3)
 
-a = 10
-b = 20
+# a = 10
+# b = 20
 
-if a > b:
-    print(f"{a} is greater than {b}.")
+# if a > b:
+#     print(f"{a} is greater than {b}.")
+# else:
+#     print(f"{b} is greater than {a}.")
+
+# -----------------------------------------------------------------------
+
+num = int(input("Enter a number: "))
+if num % 2 == 0:
+    print(f"{num} is an even number.")
 else:
-    print(f"{b} is greater than {a}.")
-
+    print(f"{num} is an odd number.")
