@@ -67,3 +67,4 @@ print(fruits)
 
 print(f"Our Original List: {fruits_copy}")
 print(f"Reference List: {fruits_copy1}")
+print(f"Original List: {fruits}")
