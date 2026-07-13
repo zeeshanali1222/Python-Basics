@@ -51,3 +51,77 @@
 # print("After appending a new element to the original list:", num_list)
 # print("Copied list (by value):", num_list_copy)
 # print("Reference list (by reference):", num_list_ref)
+
+# ---------------------------------------------------------------------------------------------------
+
+# Counting elements of list
+
+# num_list = [1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5]
+# print("Original list:", num_list)
+
+# Counting the number of occurrences of a specific element in the list
+# count = num_list.count(2)
+# print("Number of occurrences of 2:", count)
+
+# count1 = num_list.count(4)
+# print("Numer of occurrences of 4:", count1)
+
+# ----------------------------------------------------------------------------------------------------
+
+# Reversing a list
+# num = [1, 2, 3, 4, 5]
+# print("Original list:", num)
+
+# num.reverse()
+# print("Reversed list:", num)
+
+# ----------------------------------------------------------------------------------------------------
+
+# Removing elements from a list
+
+# num1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# print("Original list:", num1)
+
+# Removing an element by value
+# num1.remove(5)
+# print("After removing 5 from the list:", num1)
+
+# num1.remove(8)
+# print("After removing 8 from the list:", num1)
+
+# ----------------------------------------------------------------------------------------------
+
+# Sorting a list
+
+# num2 = [5, 2, 9, 1, 5, 6]
+# print("Original list:", num2)
+
+# Sorting the list in ascending order
+# By default, the sort() method sorts the list in ascending order.
+# num2.sort()
+# print("Sorted list in ascending order:", num2)
+
+# Lets sort the list in descending order
+
+# num2.sort(reverse = True)
+# print("Sorted list in descending order:", num2)
+
+# ----------------------------------------------------------------------------------------------
+
+# Popping elements from a list
+
+# num3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# print("Original list:", num3)
+
+# Popping an element from the end of the list
+# By default, the pop() method removes and returns the last element of the list.
+
+# popped_element = num3.pop()
+# print("Popped element from the end of the list:", popped_element)
+
+# Lets pop an element from a specific index
+# popped_element_index = num3.pop(3)
+# print("Popped element from index 3:", popped_element_index)
+
+# popped_element_index1 = num3.pop(5)
+# print("Popped element from index 5:", popped_element_index1)
