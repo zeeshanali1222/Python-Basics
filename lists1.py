@@ -125,3 +125,33 @@
 
 # popped_element_index1 = num3.pop(5)
 # print("Popped element from index 5:", popped_element_index1)
+
+# ----------------------------------------------------------------------------------------------
+
+# Extending a list
+# Extending a list means adding elements from another list to the end of the original list.
+
+# num4 = [1, 2, 3, 4, 5]
+# print("Original list:", num4)
+
+# num5 = [6, 7, 8, 9, 10]
+# print("List to be added:", num5)
+
+# num4.extend(num5)
+# print("After extending the original list with the new list:", num4)
+
+# ----------------------------------------------------------------------------------------------
+
+# Clearing a list
+# Clearing a list means removing all elements from the list.
+
+num6 = [1, 2, 3, 4, 5]
+print("Original list:", num6)
+
+num7 = [6, 7, 8, 9, 10]
+
+num6.extend(num7)
+print("After extending the original list with the new list:", num6)
+
+num6.clear()
+print("After clearing the list:", num6)
