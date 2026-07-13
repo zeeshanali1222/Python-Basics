@@ -145,13 +145,13 @@
 # Clearing a list
 # Clearing a list means removing all elements from the list.
 
-num6 = [1, 2, 3, 4, 5]
-print("Original list:", num6)
+# num6 = [1, 2, 3, 4, 5]
+# print("Original list:", num6)
 
-num7 = [6, 7, 8, 9, 10]
+# num7 = [6, 7, 8, 9, 10]
 
-num6.extend(num7)
-print("After extending the original list with the new list:", num6)
+# num6.extend(num7)
+# print("After extending the original list with the new list:", num6)
 
-num6.clear()
-print("After clearing the list:", num6)
+# num6.clear()
+# print("After clearing the list:", num6)
