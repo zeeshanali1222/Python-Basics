@@ -65,3 +65,19 @@
 # for i in range(1, num + 1):
 #     result = i + 1
 # print(f"Orginal Number: {i} --> After adding 1: {result}")
+
+# Taking a number from user and then making a table of that number
+
+# num = int(input("Enter any number: "))
+
+# for i in range(1, 11):
+#     result = num * i
+#     print(f"{num} x {i} = {result}")
+
+# Take a number from user and make a cube of it
+
+# num = int(input("Enter any number: "))
+
+# for i in range(1, num + 1):
+#     print(f"Current Number is {i} and Cube is {i ** 3}")
+
