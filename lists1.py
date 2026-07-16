@@ -155,3 +155,32 @@
 
 # num6.clear()
 # print("After clearing the list:", num6)
+
+# ----------------------------------------------------------------------------------------------
+
+# Slicing a list
+# Slicing a list means extracting a portion of the list based on specified indices.
+
+# students_names = ["Alice", "Bob", "Charlie", "David", "Eve", "Frank", "Grace", "Hannah", "Ivy"]
+# print("Original list of student names:", students_names)
+
+# Slicing the list to get the first three names
+# If you want to slice a list to get the first three names, you can use the slicing syntax: list[start:end].
+
+# first_three_names = students_names[0:3]
+# print("First three names:", first_three_names)
+
+# If you want to get the exact index then add +1 to the end index.
+
+# first_four_names = students_names[0:5]
+# print("First four names:", first_four_names)
+
+# List of 20 numbers
+
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
+print("Original list of numbers:", numbers)
+
+# Stepping through the list.
+
+num = numbers[0:5:2]  # This will give us the first five numbers with a step of 2.
+print(num)
