@@ -81,3 +81,13 @@
 # for i in range(1, num + 1):
 #     print(f"Current Number is {i} and Cube is {i ** 3}")
 
+# for i in range(1, 10):
+#     print(i)
+
+# for i in range(4):
+#     x = int(input("Enter a number between 1 and 100: "))
+#     if i <= x <= 100:
+#         print("Valid Nnumber: ", x)
+#         break
+#     else:
+#         print("Invalid Number: ", x)
