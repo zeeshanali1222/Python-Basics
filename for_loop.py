@@ -96,12 +96,13 @@
 
 # Find the factorial of a given number
 
-x = int(input("Enter any number to find the factorial: "))
-factorial = 1
+# num = int(input("Enter any number to find the factorial: "))
+# factorial = 1
 
-if x <= 0:
-    print("Factorial does not exist for negative numbers. ")
-else:
-    for i in range(1, x + 1):
-        factorial = factorial * i
-    print(f"The factorial of {x} is {factorial}: ")
+# if num <= 0:
+#     print("Factorial does not exist for negative numbers. ")
+# else:
+#     for i in range(1, num + 1):
+#         factorial = factorial * i
+#     print(f"The factorial of {num} is {factorial}: ")
+
